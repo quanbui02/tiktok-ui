@@ -1,0 +1,36 @@
+.wrapper {
+  margin-top: 8px;
+  border-top: 1px solid #e3e3e4;
+}
+.label {
+  font-size: 1.4rem;
+  padding-bottom: 10px;
+  font-weight: 600;
+  color: rgba(22, 24, 35, 0.75);
+  padding-top: 16px;
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  line-height: 2.2rem;
+  width: auto;
+  padding: 0 10px;
+  border: 1px solid #e3e3e4;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0 16px 8px 0;
+  cursor: pointer;
+  &:hover {
+    background: rgba(22, 24, 35, 0.03);
+  }
+  transition: background 200ms ease-in-out 0s;
+}
+
+.icon {
+  padding-right: 8px;
+  color: rgba(22, 24, 35, 0.75);
+}

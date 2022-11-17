@@ -1,0 +1,153 @@
+.main_container {
+  border-bottom: 1px solid #e3e3e4;
+  margin-left: 30px;
+  //   padding-right: 8px;
+  width: 692px;
+  max-width: 692px;
+  scroll-snap-type: y mandatory;
+}
+.Div-container {
+  height: 56px;
+  width: 56px;
+}
+.img-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Div_content-container {
+  margin-left: 12px;
+}
+.info {
+  display: flex;
+}
+.nickname {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  display: inline-block;
+  margin-right: 4px;
+  &:hover {
+    text-decoration: underline;
+  }
+  cursor: pointer;
+}
+.fullname {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+  line-height: 28px;
+  cursor: pointer;
+}
+.btn-follow {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 28px;
+}
+
+.hastag {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.spantext {
+  white-space: nowrap;
+  width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.link-hastag {
+  margin-left: 6px;
+  white-space: nowrap;
+  width: 155px;
+  overflow: hidden;
+  text-overflow: clip;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+  position: relative;
+  max-width: 692px;
+}
+
+.link-music {
+  display: flex;
+  align-items: center;
+  line-height: 2rem;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 8px;
+}
+.link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.Div_Video-wrapper {
+  display: flex;
+}
+.actionItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.videocontent {
+  margin-right: 20px;
+  border-radius: 10px;
+  width: 258px;
+  height: 460px;
+}
+.btn-item {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.spanIcon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+  background-color: rgba(22, 24, 35, 0.06);
+}
+
+.iconAction {
+  position: relative;
+  margin: auto;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  color: rgb(22, 24, 35);
+}
+.text-line {
+  color: rgba(22, 24, 35, 0.75);
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+}

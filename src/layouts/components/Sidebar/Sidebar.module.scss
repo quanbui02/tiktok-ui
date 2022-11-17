@@ -1,0 +1,10 @@
+.wrapper {
+  // position: relative;
+  width: 356px;
+  padding: 20px 0 26px 8px;
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  overflow-y: scroll;
+  // max-height: min(100vh - 98px - 60px, 600px);
+}
